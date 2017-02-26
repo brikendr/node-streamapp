@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1"/>
+  <title>face-detection-node-opencv</title>
+  <style> 
+      .container {
+        padding-top: 50px;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      #canvas-video {
+        width: 640px;
+        height: 480px;
+        border: 1px solid #ccc;
+      }
+  </style>
+</head>
+<body>
+  <div class="container center">
+    <canvas id="canvas-video" width="640" height="480"></canvas>
+  </div>
+
+  <script src="/javascript/jsmpeg.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

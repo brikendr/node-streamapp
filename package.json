@@ -1,0 +1,23 @@
+{
+  "name": "huddly-streaming-app",
+  "version": "1.0.0",
+  "description": "This is the backend application for the Huddly Camera which streams the camera feed captured by the Huddly GO using ffmpeg to the local network via WebSockets which allows for client applications (WEB or Mobile) to access the stream",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Camera",
+    "Stream",
+    "Sockets",
+    "ffmpeg"
+  ],
+  "author": "Brikend Rama",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "morgan": "^1.8.1",
+    "socket.io": "^1.7.3"
+  }
+}
